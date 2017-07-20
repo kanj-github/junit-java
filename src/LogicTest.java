@@ -24,9 +24,9 @@ public class LogicTest {
 
     @Test
     public void testLogic() {
-        new Logic().startShit(mockView);
+        new Logic(mockView).startShit();
         try {
-            Thread.sleep(5000);
+            Thread.sleep(500);
         } catch (InterruptedException ie) {}
         verify(mockView, times(1)).display();
     }
