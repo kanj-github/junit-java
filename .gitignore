@@ -1,0 +1,9 @@
+# Intellij
+.idea/
+
+# Mac
+.DS_Store
+
+# Outout
+out/
+
